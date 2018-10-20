@@ -1,7 +1,42 @@
+.violin {
+    height: 200;
+    width: auto;
+}
+
+.book {
+    height: 200;
+    width: auto;
+    float: right;
+}
+
+.siloutte {
+    height: 200;
+    width: auto;
+}
+
+.dragon {
+    height: 200;
+    width: auto;
+}
+
+.penguin {
+    height: 200;
+    width: auto;
+}
+
+h1 {
+    color: #01B5A5;
+}
+
+h2 { 
+    color: #01B5A5;
+}
+
 body {
-    color: #03CACC;
+    color: black;
     margin: 0;
     font-family: sans-serif;
+    background-color: white;
 }
 
 /*class selector */
@@ -11,7 +46,7 @@ body {
 }
 
 header { 
-    background-color: #377F7F;
+    background: linear-gradient(#01D0FF, #01E8D4, #0BFFA5);
     height: 150px;
     line-height: 150px;
 }
@@ -48,11 +83,11 @@ header a {
 
 /* footer*/
 footer {
-    background-color: #377F7F;
+    background: linear-gradient(#01D0FF, #01E8D4, #0BFFA5) ;
     position: absolute;
     width: 100%;
     font: bold 16px sans-serif;
-   /*font-weight:;
+   /*font-weight: 10px;
    font-size:
    font-family:;*/
    padding: 55px 50px;
@@ -65,29 +100,31 @@ footer .footer-left {
 footer .footer-left, footer .footer-right {
     display: inline-block;
     vertical-align: center;
+    color: white;
 }
 
 footer .foooter-links {
-    color: black;
+    color: white;
     margin: 20px 0 12px;
     padding: 0;
 }
 
 foooter .footer-links a {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
 footer .footer-left {
     font-size: 14px;
     font-weight: normal; 
     margin: 0;
+    
 }
 
 
 footer .footer-right p {
     display: inline-block;
-    color: #fff;
+    color: white;
     vertical-align: middle;
     margin: 0;
 }
